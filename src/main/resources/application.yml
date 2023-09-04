@@ -17,3 +17,5 @@ server:
   servlet:
     encoding:
       force-response: true  #머스테치 한글깨짐 오류 해결
+    session:
+      store-type: jdbc
